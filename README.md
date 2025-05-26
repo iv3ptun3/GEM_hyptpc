@@ -1,7 +1,7 @@
 # GEM_hyptpc
 **triple GEM simulation for kek server**
 by HeeJeong BYEON, Kyungpook National University
-
+email: gos1231@knu.ac.kr
 ---
 ## Reauirements
 - gmsh
