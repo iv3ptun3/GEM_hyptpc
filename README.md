@@ -1,5 +1,5 @@
 # GEM_hyptpc
-**triple GEM simulation for kek server**
+**triple GEM simulation for HypTPC**
 
 **by HeeJeong BYEON, Kyungpook National University**
 
