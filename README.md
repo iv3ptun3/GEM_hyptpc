@@ -21,8 +21,9 @@ by HeeJeong BYEON, Kyungpook National University
 
 ---
 ## Solve ElectricField
-1. set Voltage at gem.sif
-2. ElmerSolver gem.sif
+1. change permittivity at gem/dielectrics.dat
+2. set Voltage at gem.sif
+3. ElmerSolver gem.sif
 
 ---
 ## build and run
