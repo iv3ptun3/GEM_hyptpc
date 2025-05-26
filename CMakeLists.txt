@@ -25,9 +25,3 @@ endforeach()
 
 # --- Copy run.sh to build directory ---
 configure_file(run.sh ${CMAKE_CURRENT_BINARY_DIR}/run.sh COPYONLY)
-
-# Make run.sh executable
-add_custom_command(
-  TARGET gem POST_BUILD
-  COMMAND ${CMAKE_COMMAND} -E chmod +x ${CMAKE_CURRENT_BINARY_DIR}/run.sh
-)
