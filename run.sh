@@ -7,7 +7,7 @@ mkdir -p log
 for i in $(seq 0 3); do
   tag="300_$i"
   echo "Submitting job for $tag ..."
-  bsub -q a -J gem_$i -o log/log_$tag.txt "./gem $tag"
+  bsub -q l -J gem_$i -o log/log_$tag.txt "./gem $tag"
 done
 
 echo "All jobs submitted to queue 'a'."

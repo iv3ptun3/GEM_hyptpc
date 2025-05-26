@@ -25,7 +25,7 @@
 ---
 ## Solve ElectricField
 1. change permittivity at gem/dielectrics.dat
-2. set Voltage at gem.sif
+2. set Parameter at gem.sif
 3. ElmerSolver gem.sif
 
 ---
