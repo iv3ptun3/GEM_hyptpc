@@ -1,15 +1,31 @@
 # GEM_hyptpc
-triple GEM simulation for kek server
+**triple GEM simulation for kek server**
+by HeeJeong BYEON, Kyungpook National University
 
-you have to install gmsh & garfield
+---
+## Reauirements
+- gmsh
+- ROOT
+- Garfield
 
+---
+## Download
 1. git clone https://github.com/iv3ptun3/GEM_hyptpc.git
 2. cd GEM_hyptpc
-3. gmsh -3 -order 2 gem.geo
-4. ElmerGrid 14 2 gem.msh -autoclean
-5. ElmerSolver gem.sif
-6. mkdir build
-7. cmake ../
-8. make
-9. chmod +x run.sh
-10. ./gem or ./run.sh
+
+---
+## make mesh file
+1. gmsh -3 -order 2 gem.geo
+2. ElmerGrid 14 2 gem.msh -autoclean
+
+---
+## Solve ElectricField
+ElmerSolver gem.sif
+
+---
+## build and run
+1. mkdir build
+2. cmake ../
+3. make
+4. chmod +x run.sh
+5. ./gem or ./run.sh
