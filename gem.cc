@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
     fm.GetBoundingBox(x0, y0, z0, x1, y1, z1);
     printf("z: %lf\n",z1);
 
-    sleep(10);
+    //sleep(10);
 
     // parameter [cm]
     constexpr double pitch = 0.014;    // GEM pitch
