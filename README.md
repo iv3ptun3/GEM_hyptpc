@@ -15,12 +15,14 @@ by HeeJeong BYEON, Kyungpook National University
 
 ---
 ## make mesh file
-1. gmsh -3 -order 2 gem.geo
-2. ElmerGrid 14 2 gem.msh -autoclean
+1. set parameter at gem.geo
+2. gmsh -3 -order 2 gem.geo
+3. ElmerGrid 14 2 gem.msh -autoclean
 
 ---
 ## Solve ElectricField
-ElmerSolver gem.sif
+1. set Voltage at gem.sif
+2. ElmerSolver gem.sif
 
 ---
 ## build and run
