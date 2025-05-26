@@ -177,7 +177,7 @@ int main(int argc, char *argv[]) {
     
     // ======= [4] Display Drift Lines with GEM =======
     Sensor sensor(&fm);
-    sensor.SetArea(-tpc/2, -tpc/2, -0.05, tpc/2, tpc/2 , dzU + dz12 + dz23 + dzPad);
+    sensor.SetArea(-tpc/2, -tpc/2, -0.05, tpc/2, tpc/2 , 0.8);
 
     AvalancheMicroscopic aval(&sensor);
     aval.SetCollisionSteps(1000);    // skipping plot
@@ -198,8 +198,8 @@ int main(int argc, char *argv[]) {
     int padsum = 0;
 
     // paremeter
-    double x, y, t, dx, dy, dz =0;
-    double z = dzU/2 + dz12 + dz23 + dzPad;
+    double x, y, t, dx, dy, dz = 0.;
+    double z = 0.7;
     double e = 0.5; //eV
     int nEntries = 10;
 
