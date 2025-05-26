@@ -96,9 +96,9 @@ int main(int argc, char *argv[]) {
     TCanvas* cf2 = new TCanvas("cf2", "GEM2 Electric Field", 600, 600);
     TCanvas* cf3 = new TCanvas("cf3", "GEM3 Electric Field", 600, 600);
     TCanvas* cf5 = new TCanvas("cf5", "Potential line with GEM", 600, 600);
-    */
     TCanvas* cf4 = new TCanvas("cf4", "Drift Trajectory with GEM", 600, 600);
-    
+    */
+
     // For gain study
     TH1F* hGGain = new TH1F("hGasGain", "Gas Gain (Avalanche Size);Gain (n_e);Entries", 100000, 0, 100000);
     TH1F* hEGain = new TH1F("hEffectiveGain", "Effective Gain ;Pad Electrons;Entries", 100000, 0, 100000);
@@ -309,6 +309,7 @@ int main(int argc, char *argv[]) {
     meshView5.Plot();
 */
 
-    app.Run();
+    // if turn on the root canvas, remove // at below
+    //app.Run();
 
 } 
