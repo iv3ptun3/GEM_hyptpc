@@ -6,15 +6,15 @@ End
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Length in cm and electric field density in V/cm.
 $Edrift = 130
-$Etrans = 2593.5
-$Einduct = 3315.
+$Etrans = 1995.
+$Einduct = 2550.
 $dzP = 0.2
 $dzU = 0.2
 $dz12 = 0.2
 $dz23 = 0.2
-$dV1 = 585.
-$dV2 = 390.
-$dV3 = 390.
+$dV1 = 450.
+$dV2 = 300.
+$dV3 = 300.
 $tD1 = 0.0100
 $tD = 0.0050
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -102,7 +102,7 @@ End
 
 Material 10
   Name = "GEM3 Dielectric"
-  Relative Permittivity = 3.4
+  Relative Permittivity = 2.9
 End
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

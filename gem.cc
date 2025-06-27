@@ -96,8 +96,9 @@ int main(int argc, char *argv[]) {
     TCanvas* cf2 = new TCanvas("cf2", "GEM2 Electric Field", 600, 600);
     TCanvas* cf3 = new TCanvas("cf3", "GEM3 Electric Field", 600, 600);
     TCanvas* cf5 = new TCanvas("cf5", "Potential line with GEM", 600, 600);
-    TCanvas* cf4 = new TCanvas("cf4", "Drift Trajectory with GEM", 600, 600);
     */
+    TCanvas* cf4 = new TCanvas("cf4", "Drift Trajectory with GEM", 600, 600);
+    
 
     // For gain study
     TH1F* hGGain = new TH1F("hGasGain", "Gas Gain (Avalanche Size);Gain (n_e);Entries", 100000, 0, 100000);
@@ -201,7 +202,7 @@ int main(int argc, char *argv[]) {
     double x, y, t, dx, dy, dz = 0.;
     double z = 0.7;
     double e = 0.5; //eV
-    int nEntries = 10;
+    int nEntries = 1;
 
     for (int i = 0; i < nEntries; ++i) {
 
@@ -265,7 +266,7 @@ int main(int argc, char *argv[]) {
 
 
     // Display drift lines **with GEM layers visible**
-    /*
+    
     ViewFEMesh meshView;
     meshView.SetCanvas(cf4);
     cf4->SetLeftMargin(0.16);
@@ -283,7 +284,7 @@ int main(int argc, char *argv[]) {
 
     constexpr bool twod = true;
     meshView.Plot(twod);
-  */
+  
     
 
 /*
@@ -310,6 +311,6 @@ int main(int argc, char *argv[]) {
 */
 
     // if turn on the root canvas, remove // at below
-    //app.Run();
+    app.Run();
 
 } 

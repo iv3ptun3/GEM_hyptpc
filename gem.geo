@@ -155,7 +155,7 @@ p_g1_diel_h4_t2 = newp; Point(p_g1_diel_h4_t2) = {-bdrHalfX + rO1, bdrHalfY,    
 p_g1_diel_h4_t3 = newp; Point(p_g1_diel_h4_t3) = {-bdrHalfX, bdrHalfY - rO1,    z1 + tD1/2, mshSizeDielOuterHole};
 p_g1_diel_h4_m1 = newp; Point(p_g1_diel_h4_m1) = {-bdrHalfX, bdrHalfY,         z1, mshSizeHoleCenter};
 p_g1_diel_h4_m2 = newp; Point(p_g1_diel_h4_m2) = {-bdrHalfX + rI1, bdrHalfY,    z1, mshSizeDielInnerHole};
-p_g1_diel_h4_m3 = newp; Point(p_g1_diel_h4_m3) = {-bdrHalfX, bdrHalfY - rI1 ,   z1, mshSizeDielInnerHole};
+p_g1_diel_h4_m3 = newp; Point(p_g1_diel_h4_m3) = {-bdrHalfX, bdrHalfY - rI1,   z1, mshSizeDielInnerHole};
 p_g1_diel_h4_b1 = p_g1_lc_h4_t1;
 p_g1_diel_h4_b2 = newp; Point(p_g1_diel_h4_b2) = {-bdrHalfX + rO1, bdrHalfY,    z1 - tD1/2, mshSizeDielOuterHole};
 p_g1_diel_h4_b3 = newp; Point(p_g1_diel_h4_b3) = {-bdrHalfX, bdrHalfY - rO1,    z1 - tD1/2, mshSizeDielOuterHole};
@@ -1199,7 +1199,7 @@ p_g3_diel_h4_t2 = newp; Point(p_g3_diel_h4_t2) = {-bdrHalfX + rO, bdrHalfY,    z
 p_g3_diel_h4_t3 = newp; Point(p_g3_diel_h4_t3) = {-bdrHalfX, bdrHalfY - rO,    z3 + tD/2, mshSizeDielOuterHole};
 p_g3_diel_h4_m1 = newp; Point(p_g3_diel_h4_m1) = {-bdrHalfX, bdrHalfY,         z3, mshSizeHoleCenter};
 p_g3_diel_h4_m2 = newp; Point(p_g3_diel_h4_m2) = {-bdrHalfX + rI, bdrHalfY,    z3, mshSizeDielInnerHole};
-p_g3_diel_h4_m3 = newp; Point(p_g3_diel_h4_m3) = {-bdrHalfX, bdrHalfY - rI ,   z3, mshSizeDielInnerHole};
+p_g3_diel_h4_m3 = newp; Point(p_g3_diel_h4_m3) = {-bdrHalfX, bdrHalfY - rI,   z3, mshSizeDielInnerHole};
 p_g3_diel_h4_b1 = p_g3_lc_h4_t1;
 p_g3_diel_h4_b2 = newp; Point(p_g3_diel_h4_b2) = {-bdrHalfX + rO, bdrHalfY,    z3 - tD/2, mshSizeDielOuterHole};
 p_g3_diel_h4_b3 = newp; Point(p_g3_diel_h4_b3) = {-bdrHalfX, bdrHalfY - rO,    z3 - tD/2, mshSizeDielOuterHole};
