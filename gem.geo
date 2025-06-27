@@ -16,13 +16,13 @@ dzU = 0.2;
 dzP = 0.2;
 
 // Fourth input expression for Point() to control mesh sizes at the points.
-mshSizeDrift = 0.0025;   //0.005
+mshSizeDrift = 0.005;   //0.005
 // mesh sizes at points on circles.
-mshSizeEtchHole = 0.0004;   //0.0008
-mshSizeDielInnerHole = 0.0005;  //0.0010
-mshSizeDielOuterHole = 0.00075;  //0.0015
+mshSizeEtchHole = 0.0008;   //0.0008
+mshSizeDielInnerHole = 0.001;  //0.0010
+mshSizeDielOuterHole = 0.0015;  //0.0015
 // mesh size at points on circle centers
-mshSizeHoleCenter = 0.00125;     //0.0025
+mshSizeHoleCenter = 0.0025;     //0.0025
 
 // z-coordinate of planes
 zP = 0;
@@ -1901,6 +1901,18 @@ pv_g2_diel = newv; Physical Volume(pv_g2_diel) = {v_g2_diel}; // Body 7
 pv_g3_uc = newv; Physical Volume(pv_g3_uc) = {v_g3_uc}; // Body 8
 pv_g3_lc = newv; Physical Volume(pv_g3_lc) = {v_g3_lc}; // Body 9
 pv_g3_diel = newv; Physical Volume(pv_g3_diel) = {v_g3_diel}; // Body 10
+
+Physical Volume(1) = {v_up};         
+Physical Volume(2) = {v_g1_uc};      
+Physical Volume(3) = {v_g1_lc};      
+Physical Volume(4) = {v_g1_diel};
+Physical Volume(5) = {v_g2_uc};      
+Physical Volume(6) = {v_g2_lc};      
+Physical Volume(7) = {v_g2_diel};  
+Physical Volume(8) = {v_g3_uc};      
+Physical Volume(9) = {v_g3_lc};      
+Physical Volume(10) = {v_g3_diel};   
+
 /*---------------------------------- Physical surface definitions for boundary conditions -------------------------------------*/
 // upper boundary plane
 // Boundary 1
