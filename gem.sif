@@ -72,7 +72,7 @@ End
 
 Material 4
   Name = "GEM1 Dielectric"
-  Relative Permittivity = 3.4
+  Relative Permittivity = 2.9
 End
 
 Material 5
@@ -102,7 +102,7 @@ End
 
 Material 10
   Name = "GEM3 Dielectric"
-  Relative Permittivity = 2.9
+  Relative Permittivity = 3.4
 End
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
